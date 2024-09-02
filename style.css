@@ -1,0 +1,113 @@
+.navbar{
+    margin-left: 30px;
+    
+}
+.search-bar input {
+    border: none;
+    border-bottom: 2px solid black;
+}
+.nav-link {
+    margin-left: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.pepernav {
+    margin-left: 18px;
+    color: green;
+}
+
+.name {
+    display: flex;
+}
+
+.learn-more {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+hr.line {
+    border: 1px solid;
+}
+
+.imagecont {
+    width: 100%;
+    height: 690px;
+}
+
+#imag {
+    background-image:
+        linear-gradient(to right, rgba(121, 156, 121, 0.8), rgba(16, 12, 12, 0), rgba(31, 22, 22, 0.1)),
+        url("./assets/imag.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon {
+    width: 20px;
+    height: 10px;
+}
+
+.imagedata {
+    margin-left: 20px;
+    padding-top: 100px;
+}
+
+a.imaglinks {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+
+::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+.icon-text i {
+    margin-right: 8px;
+}
+.sideicons{
+    position: relative;
+    top: 80px;
+}
+.vertical-text {
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg); 
+    margin-left: -8px;
+
+}
+div.bg-dark{
+    margin-left: 30px;
+    margin-right: 1px;
+}
+
+/* custom css  */
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+.icon-text i {
+    margin-right: 5px;
+}
+.icon-text span {
+    font-size: 14px;
+}
+@media (min-width: 576px) {
+    .icon-text span {
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px) {
+    .icon-text span {   
+        font-size: 18px;
+    }
+}
+@media (min-width: 992px) {
+    .icon-text span {
+        font-size: 20px;
+    }
+}
